@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syncro</title>
+  <link rel="stylesheet" href="./syncro.css">
+</head>
+
+<body>
+
+  
+  <div style="padding: 50px; width: 600px; margin: auto;">
+    <h1 style="text-align: center">Default</h1>
+    <div data-stepped-bar>
+    </div>
+  </div>
+
+  <div style="padding: 50px; width: 600px; margin: auto;">
+    <h1 style="text-align: center">With Data Attribute</h1>
+    <div data-stepped-bar='{"title": "Custom Title", "catagories": [ { "name": "Label 1", "value": 50, "color": "#ff6384" }, { "name": "Label 2", "value": 50, "color": "#ffcd56" } ]}'>
+    </div>
+  </div>
+
+  <script src="./syncro.js"></script>
+</body>
+
+</html>
